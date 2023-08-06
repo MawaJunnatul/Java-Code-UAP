@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.ButtonController">
+   <right>
+      <AnchorPane prefHeight="482.0" prefWidth="443.0" style="-fx-background-color: Pink;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="53.0" layoutY="316.0" mnemonicParsing="false" onAction="#User" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: #82CAFF;" text="Admin" />
+            <Button layoutX="185.0" layoutY="316.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: #82CAFF;" text="Doctor" />
+            <Button layoutX="319.0" layoutY="316.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: #82CAFF;" text="Patient" />
+            <Label alignment="CENTER" layoutX="52.0" layoutY="47.0" prefHeight="66.0" prefWidth="344.0" style="-fx-background-color: #808080;" text="Welcome to UAP Hospital" textFill="#76aead">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
